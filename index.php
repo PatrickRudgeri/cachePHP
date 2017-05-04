@@ -26,7 +26,7 @@ class Cache{
 	}
 
 	public function saveCache(){
-		file_put_contents('cache.cahe', json_encode($this->cache));
+		file_put_contents('cache.cache', json_encode($this->cache));
 	}
 
 }
