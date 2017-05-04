@@ -4,7 +4,6 @@ class Cache{
 	private $cache;
 	//metodo para setar o conteudo de cache.cache
 	public function setVar($nome, $valor){
-
 		$this->readCache();
 		//atribui na 'chave' $nome o $valor
 		$this->cache->$nome = $valor;
