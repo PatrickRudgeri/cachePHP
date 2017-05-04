@@ -28,10 +28,14 @@ class Cache{
 
 	public function saveCache(){
 		//codifica o conteudo para json e guarda(file_put_contents) no arquivo cache.cache
-		file_put_contents('cache.cahe', json_encode($this->cache));
+		file_put_contents('cache.cache', json_encode($this->cache));
 	}
 
 }
 
 $cache = new Cache();
-$cache->setVar("nome","Fulano");
+
+$cache->setVar("nome","Patrick");
+$cache->setVar("idade",21);
+//echo "nome: ".$cache->getVar("nome")."<br>";
+//echo "idade: ".$cache->getVar("idade");
