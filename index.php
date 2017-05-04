@@ -25,8 +25,10 @@ class Cache{
 		}
 	}
 
-	public function saveCache(){
+	private function saveCache(){
+
 		file_put_contents('cache.cache', json_encode($this->cache));
+
 	}
 
 }
