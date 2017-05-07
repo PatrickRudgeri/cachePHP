@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+cachePHP
+=======================
+sistema de cache simples
+------------------------
+Este é um projeto apenas para aprendizado,não possui muitas validações e não está bem fundamentado segundo os padrões de projetos existentes.
+é indicado para estudantes iniciantes devido sua baixa complexidade.
 
-You can use the [editor on GitHub](https://github.com/PatrickRudgeri/cachePHP/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+* Para cache simples de uma página utilizar o arquivo `cache-pagina.php`
+* Para cache de variaveis utilizar o arquivo `cache-variaveis.php` 
+#
+* o arquivo `pagina.php` possui a página que será colocada em cache com variaveis randômicas e acesso ao banco de dados configurado no arquivo `config.php`(utilize o script blog.sql em seu banco de dados para gerar o banco com a tabela utilizada).
+Caso queira utilizar o cache para outra pagina além da `pagina.php` substituir na linha 35 pelo nome da pagina `require __DIR__.'/pagina.php';` 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**Este projeto será melhorado ,novas funcionalidades serão implementadas em breve**
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PatrickRudgeri/cachePHP/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+>by Patrick Rudgeri
