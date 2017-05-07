@@ -3,7 +3,7 @@ cachePHP
 sistema de cache simples
 ------------------------
 Este é um projeto apenas para aprendizado,não possui muitas validações e não está bem fundamentado segundo os padrões de projetos existentes.
-é indicado para estudantes iniciantes devido sua baixa complexidade.
+É indicado para estudantes iniciantes devido sua baixa complexidade.
 
 * Para cache simples de uma página utilizar o arquivo `cache-pagina.php`
 * Para cache de variaveis utilizar o arquivo `cache-variaveis.php` 
